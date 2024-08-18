@@ -1,14 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun  8 07:55:43 2020
 
-类方法采用<类名>.<方法名>(<参数列表>)或<对象名>.<方法名>(<参数列表>)方式使用
-
-@author: lenovo
-"""
 
 from time import time, localtime, sleep
 
+#Python的类
 class Clock (object):
     """数字时钟的显示"""
     

@@ -9,8 +9,8 @@ if len(ports_list) <= 0:
     print("无串口设备。")
 else:
     print("可用的串口设备如下：")
-    for comport in ports_list:
-        print(list(comport)[0], list(comport)[1])
-
+    for comport in ports_list:   #每次迭代都会将列表中的元素赋值给变量 comport，然后执行接下来的代码块
+        print(list(comport)[0], list(comport)[1],list(comport)[2])
+        #print(list(comport))
 
         
