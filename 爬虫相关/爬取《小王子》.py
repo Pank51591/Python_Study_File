@@ -9,6 +9,8 @@ pattern = soup.find_all('span', 'short')
 
 for item in pattern:
     print(item.string)
+
+    
 '''pattern_s = re.compile('<span class="user-stars allstar(.*?) rating"')
 p = re.findall(pattern_s, r.text)
 

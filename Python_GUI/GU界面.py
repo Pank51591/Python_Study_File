@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun  9 21:30:28 2020
-
-@author: lenovo
-"""
 
 import tkinter
 import tkinter.messagebox

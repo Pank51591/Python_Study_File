@@ -3,6 +3,8 @@
 #                  spareSwitch.
 # V06 20221-13 --- Added spRunOnSb,spStartupDly,icePerRes,DlyWUsageSb and iceCapacity.
 # V07 20230627 --- Added PhD model
+
+
 import serial
 import sys
 import time
@@ -302,7 +304,7 @@ def verificationTask():
         messagebox.showinfo('Error',"Software Model should be 1 ~ 15!")
         time.sleep(5)
 
-     
+#   
 def ProgrammingMachineTask():
     global sendEnable
     global disable15MSend

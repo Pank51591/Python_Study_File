@@ -1,3 +1,11 @@
+'''
+Author: Panke pank51591@foxmail.com
+Date: 2024-08-19 08:48:01
+LastEditors: Panke pank51591@foxmail.com
+LastEditTime: 2024-08-23 09:36:40
+FilePath: \undefinede:\github\Python_Study_File\使用modbus RS485读取温湿度.py
+Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+'''
 # 请先安装 pymodbus 和 pyserial
 # pip install pymodbus
 # pip install pyserial
@@ -19,7 +27,7 @@ log.setLevel(logging.DEBUG)
 # ttyTHS4 ttyS0 ttyS1 ttyS2 ttyS4
 # client = ModbusClient(method='rtu', port='/dev/ttyTHS1', baudrate=9600, timeout=3)
 # client = ModbusClient(method='rtu', port='/dev/ttyTHS0', baudrate=9600, timeout=3, stopbits=1, bytesize=8, parity='N')
-client = ModbusClient(port='COM4', baudrate=9600, timeout=3,
+client = ModbusClient(port='COM7', baudrate=9600, timeout=3,
                       stopbits=1, bytesize=8, parity='N')    # 看文档，method='rtu'貌似没用
 
 
