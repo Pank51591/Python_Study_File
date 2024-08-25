@@ -81,6 +81,7 @@ cplength_offset = 0
 
 OUTPUT_STATUS = ('Compressor','Fan','Auger','FailSafe','Drain','WaterDispenser','IceDispenser','ExtraOutput','UVLamp')
 
+#元组： 一种类似于C语言结构体的一种数据结构
 RxdTabs = (
          'augerCurMax','augerCurMin','augerCurMinEn','augerRunOnSb','augerTDRunOnSb',\
          'binSignalLowHigh','callWaterToutSw','cleaningBits','cleanTimeMb','compServiceTHw',\
@@ -116,7 +117,7 @@ RxdTabs = (
          'T_AT1_','T_AU1','T_AV1','T_AW1','T_AX1',\
          'T_AO2','T_AP2','T_AQ2','T_AR2','T_AS2',\
          'T_AT2_','T_AU2','T_AV2','T_AW2','T_AX2',         )         
-         
+        
 SaveTabs = ('   Date      Time',\
          'compCycCountdw',\
          'compOnTimeHw','iDispCycCntdw','iceDispTMdw','powerOnTMdw','sixMonthMdw',\

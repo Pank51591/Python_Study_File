@@ -1,4 +1,4 @@
-creature = "cat","dog","tiger","human"
+creature = ("cat","dog","tiger","human")
 print(creature)
 print(creature[::-1])
 
