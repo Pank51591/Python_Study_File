@@ -1,6 +1,8 @@
 from tkinter import *
 # python3 使用 tkinter
 #from tkinter import *
+
+
 def say_hi():
     print("hello ~ !")
  
