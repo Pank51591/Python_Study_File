@@ -47,6 +47,7 @@ rxd_data = [0] * MAX_RECV_BYTE
 
 #txd 
 txd_data = [0] * (CPBYTELength + 4) #105
+
 entry = {}  
 entryVar ={}
     
@@ -238,7 +239,7 @@ def putLable(row_s, col_s, name):
     lable[name] = Label(top, text = name, width = 14, wraplength = 0)
     lable[name].grid(row = row_s, column = col_s)
 
-#
+
 def putEntry(row_s, col_s, name, value, sta):
     global entryVar
     global entry
@@ -1299,6 +1300,7 @@ def txdTask():
         if txd_data[1] == 4:
             time.sleep(0.25)
             checkButton["Edit"].deselect()
+            
 
 def rxdTask():
     global ss
